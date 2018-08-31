@@ -21,6 +21,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
 <meta name="theme-color" content="#222">
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
@@ -115,7 +125,7 @@
 <meta property="og:site_name" content="小陶教育">
 <meta property="og:description" content="领域：服务：">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-30T13:54:59.973Z">
+<meta property="og:updated_time" content="2018-08-31T06:04:43.573Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="小陶教育">
 <meta name="twitter:description" content="领域：服务：">
@@ -233,17 +243,9 @@
         
         
           
-          <li class="menu-item menu-item-cfa1">
-    <a href="/CFA1/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />CFA一级</a>
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-cfa2">
-    <a href="/CFA2/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />CFA二级</a>
+          <li class="menu-item menu-item-cfa">
+    <a href="/CFA/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-leanpub"></i> <br />CFA</a>
   </li>
         
         
@@ -251,7 +253,31 @@
           
           <li class="menu-item menu-item-aqf">
     <a href="/AQF/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />AQF</a>
+      <i class="menu-item-icon fa fa-fw fa-code"></i> <br />AQF</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-cpa">
+    <a href="/CPA/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-book"></i> <br />CPA</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-sfks">
+    <a href="/SFKS/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-building"></i> <br />司法</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-swjn">
+    <a href="/SWJN/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-briefcase"></i> <br />实务</a>
   </li>
         
         
@@ -259,10 +285,18 @@
           
           <li class="menu-item menu-item-about">
     <a href="/about/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />简介</a>
+      <i class="menu-item-icon fa fa-fw fa-graduation-cap"></i> <br />简介</a>
   </li>
 
       
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
       
     </ul>
   
@@ -272,6 +306,33 @@
 
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -354,12 +415,24 @@
                 
               
 
-              <time title="创建时间：2018-08-30 21:54:19 / 修改时间：21:54:59" itemprop="dateCreated datePublished" datetime="2018-08-30T21:54:19+08:00">2018-08-30</time>
+              <time title="创建时间：2018-08-30 21:54:19" itemprop="dateCreated datePublished" datetime="2018-08-30T21:54:19+08:00">2018-08-30</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-08-31 14:04:43" itemprop="dateModified" datetime="2018-08-31T14:04:43+08:00">2018-08-31</time>
               
             
           </span>
@@ -434,6 +507,41 @@
       
     </div>
 
+     <div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2018/08/30/introduction/">小陶教育</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 小陶 的个人博客">小陶</a></p>
+  <p><span>发布时间:</span>2018年08月30日 - 21:08</p>
+  <p><span>最后更新:</span>2018年08月31日 - 14:08</p>
+  <p><span>原始链接:</span><a href="/2018/08/30/introduction/" title="小陶教育">http://xiaotaojiaoyu.github.io/2018/08/30/introduction/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://xiaotaojiaoyu.github.io/2018/08/30/introduction/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+      $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+        });
+    });  
+</script>
+
+      
+    </div>
+    
     
 
     
@@ -562,7 +670,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2018.8 – <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
     <i class="fa fa-graduation-cap"></i>
   </span>
@@ -580,11 +688,13 @@
 
 
 
-  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Mist</a> v6.4.0</div>
 
 
 
-
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">全站共4字</span>
+</div>
         
 <div class="busuanzi-count">
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -731,17 +841,17 @@
   
   <script type="text/javascript">
     var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
+    var guest = 'nick,mail';
     guest = guest.split(',').filter(function (item) {
       return GUEST.indexOf(item)>-1;
     });
     new Valine({
         el: '#comments' ,
-        verify: false,
-        notify: false,
+        verify: true,
+        notify: true,
         appId: 'fxUkSda2LNposYF9sU84pxRC-gzGzoHsz',
         appKey: 'joNcPV2y3PhbP89qQiDFbWg9',
-        placeholder: 'Just go go',
+        placeholder: '有任何问题或建议，请留言。',
         avatar:'mm',
         meta:guest,
         pageSize:'10' || 10,
@@ -754,6 +864,19 @@
   
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=6.4.0"></script>
 
 
 
@@ -772,21 +895,24 @@
           if (results.length > 0) {
             var counter = results[0];
             
-            Counter('put', `/classes/Counter/${counter.objectId}`, JSON.stringify({ time: { "__op":"Increment", "amount":1 } }))
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text(counter.time + 1);
             
-            .done(function () {
-                  var $element = $(document.getElementById(url));
-                  $element.find('.leancloud-visitors-count').text(counter.time + 1);
-            })
+            Counter('put', `/classes/Counter/${counter.objectId}`, JSON.stringify({ time: { "__op":"Increment", "amount":1 } }))
             
             .fail(function ({ responseJSON }) {
                 console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
             })
           } else {
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1}))
+                .done(function () {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function () {
+                  console.log('Failed to create');
+                });
             
           }
         })
@@ -823,6 +949,21 @@
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
 
@@ -838,6 +979,8 @@
   
 
   
+
+  <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"tagMode":true,"model":"wanko","display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script>
 
 </body>
 </html>
